@@ -1,0 +1,84 @@
+.body{
+    margin: 0 auto;
+    margin-top: 30vh;
+    border-radius: 3em;
+    width: 15%;
+    background-color: #0E3E69;
+}
+
+body div{
+    display: flex;
+    justify-content: center;
+}
+
+.head{
+    padding: 20px;
+    border-radius: 1em 1em 0 0 ;
+    background-color: #44A0F1;
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+}
+
+.head img{
+    width: 35%;
+}
+
+.head p{
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+.content{
+    background-color: #44A0F1;
+
+}
+.content p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.foot img{
+    width: 50px;
+}
+.foot{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0 0 3em 3em;
+
+}
+.right{
+    border-left:1px black solid;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.wind{
+    display: flex;
+    justify-content: space-around;
+}
+
+.temperatures {
+    display:flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: grey;
+}
+
+.tempmax{
+    color: red;
+}
+
+.tempmin{
+    color: blue;
+}
